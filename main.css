@@ -1,0 +1,103 @@
+/*Random Quote Generator*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body {
+    background: brown;
+}
+
+main>header {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.1%;
+    padding: 2%;
+    background: skyblue;
+    border-radius: 40px;
+
+}
+
+main>header>h1 {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-style: italic;
+}
+
+section>button{
+    cursor: pointer;
+}
+
+section {
+    color: brown;
+    margin: 100px 50px;
+    padding: 100px 10px 0 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50px;
+}
+
+section>article>p {
+    font-size: 22px;
+}
+
+section>button {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    background: brown;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+}
+
+section>article>cite {
+    position: relative;
+    left: 20%;
+    font-size: 17px;
+}
+
+footer {
+    border-top: 2px solid #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    bottom: 0;
+    position: relative;
+}
+
+#icon .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 2px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+  
+.fa-github {
+    color: #000;
+}
+
+
+
+/*Contact Me @ 
+  Ezehemmanuel62@gmail.com 
+  https://www.twitter.com/Ezehemmanuel62  */
